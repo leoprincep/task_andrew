@@ -1,0 +1,10 @@
+---
+web_sg:  
+    description: 'Allow port 80 & 443 from the world'  
+    ingress_rules: { 80: tcp, 443: tcp }  
+    egress_rules: { 0-65535: tcp }  
+ 
+dns_sg:  
+    description: 'Allow port 53 from the world'  
+    ingress_rules: { 53: udp, 53: udp }  
+    egress_rules: { 0-‐65535: tcp }  
