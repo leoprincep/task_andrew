@@ -19,7 +19,7 @@ sg1_rule_port2_protocol = a[sg1]['ingress_rules'][sg1_rule_port2]
 sg2_rule_port1 = a[sg2]['ingress_rules'].keys()[0]
 sg2_rule_port1_protocol = a[sg2]['ingress_rules'][sg2_rule_port1]
 
-conn = ec2.connect_to_region('eu-west-1',aws_access_key_id='AKIAJH5VXIAIAQBEITGQ',aws_secret_access_key='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')
+conn = ec2.connect_to_region('eu-west-1',aws_access_key_id='xxxxxxxxxxxxx',aws_secret_access_key='xxxxxxxxxxxxxxxxxxxxxxxxxxx')
 
 result = 0
 count1 = 0
